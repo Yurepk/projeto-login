@@ -23,6 +23,7 @@ Grandes telas: acima de 1200px
         width: 80vw;
     }
 
+
     section#login > div#imagem{
         background-image: url(../imagens/tablet.jpg);
         float: left;
@@ -35,6 +36,15 @@ Grandes telas: acima de 1200px
     section#login > div#formulario{
         float: right;
         width: 70%;
+    }
+
+
+    p#text{
+        font-size: 1rem;
+    }
+
+    div#formulario > h1{
+        font-size: 1.7rem;
     }
 }
 
@@ -53,7 +63,7 @@ Grandes telas: acima de 1200px
 
     section#login > div#imagem{
         background-image: url(../imagens/desktop.jpg);
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         transition: width 0.3s, height 0,3s;
@@ -61,8 +71,17 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
+    }
+
+
+    div#formulario > h1{
+        font-size: 2rem;
+    }
+
+    p#text{
+        font-size: 1.2rem;
     }
 }
