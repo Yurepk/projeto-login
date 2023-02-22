@@ -84,4 +84,12 @@ Grandes telas: acima de 1200px
     p#text{
         font-size: 1.2rem;
     }
+
+    div.campo > i{
+        color: white;
+    }
+
+
+
+    
 }

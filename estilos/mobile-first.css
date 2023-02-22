@@ -15,6 +15,7 @@
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
+    color: #272F59;
 }
 
 
@@ -80,8 +81,9 @@ form > div.campo{
     display: block;
     background-color: #B5A4B7;
     width: 100%;
-    padding: 0px 0px 8px 0px;
+    padding: 0px 0px 8px 3px;
     margin: 5px 0px;
+    border-radius: 7px;
 
 }
 
@@ -143,3 +145,6 @@ form > a.botao >i{
 }
 
 
+input{
+    background-color: #49372b9f;
+}
